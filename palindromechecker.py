@@ -1,4 +1,4 @@
-2.
+
 def is_palindrome(string):
     clean_string = ''.join(string.split()).lower()
     return clean_string == clean_string[::-1]
